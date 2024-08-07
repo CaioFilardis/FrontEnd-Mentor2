@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    margin: 0 auto;
+    gap: 25px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.card .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .name img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card .list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.list .info .number,
+.card .name p {
+    font-weight: 700;
+}
+
+.card .name .age ,
+.card .name .city,
+.list .info .counter-type {
+    color: var(--text-color);
+}
+
+
+
+
